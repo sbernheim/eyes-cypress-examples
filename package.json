@@ -1,0 +1,27 @@
+{
+  "name": "eyes-cypress-examples",
+  "version": "1.0.0",
+  "description": "Example Applitools Eyes Visual UI tests for Cypress",
+  "main": "index.js",
+  "scripts": {
+    "e2e": "cypress open --e2e --browser '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'",
+    "open": "cypress open",
+    "test": "cypress run"
+  },
+  "keywords": [
+    "applitools",
+    "eyes",
+    "cypress",
+    "testing",
+    "example"
+  ],
+  "author": "Sebastian Bernheim",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "cypress": "^12.7.0"
+  },
+  "dependencies": {
+    "@applitools/eyes-cypress": "^3.29.1",
+    "cypress-real-events": "^1.7.6"
+  }
+}
